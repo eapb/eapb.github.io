@@ -3,5 +3,5 @@
 const PROJECT_TITLE = '';
 
 export function u(url) {
-  return `/${PROJECT_TITLE}${url}`;
+  return `${PROJECT_TITLE}${url}`;
 }
