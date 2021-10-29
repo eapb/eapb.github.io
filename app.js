@@ -48,8 +48,7 @@ const router = async () => {
   });
 
   let match = potentialMatches.find(potentialMatch => potentialMatch.result !== null);
-
-//   console.dir(match);
+  console.dir(match);
 
   if (!match) {
     match = {
