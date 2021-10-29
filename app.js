@@ -46,6 +46,8 @@ const router = async () => {
       result: location.pathname.match(pathToRegex(route.path))
     };
   });
+  
+  console.dir(potentialMatches);
 
   let match = potentialMatches.find(potentialMatch => potentialMatch.result !== null);
   console.dir(match);
